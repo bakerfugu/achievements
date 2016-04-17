@@ -1,0 +1,60 @@
+name: achievements
+main: com.hosthorde.baker.achievements.achievements
+version: 1.7.5
+
+commands:
+    superjump:
+        description: this is a jump command
+        usage: /<command>
+        permission: achievements.superjump
+        permission-message: You don't have <permission>
+    basic:
+        description: this is a demo command
+        usage: /<command>
+        permission: achievements.basic
+        permission-message: You don't have <permission>
+    donate:
+        description: donates to a charity of your choice
+        usage: /<command> <charityNumber OR help OR list> [quantity]
+        permission: achievements.donate
+        permission-message: You don't have <permission>
+    startTask:
+        description: this starts the prompter task
+        usage: /<command>
+        permission: achievements.starttask
+        permission-message: You don't have <permission>
+    stopTask:
+        description: this stops the prompter task
+        usage: /<command>
+        permission: achievements.stoptask
+        permission-message: You don't have <permission>
+    storagetest:
+        description: tries to get your monies total from database
+        usage: /<command> [player]
+        permission: achievements.storagetest
+        permission-message: You don't have <permission>
+    economy:
+        description: this command gives you a virtual bank for currency!
+        usage: /<command> [player]
+        permission: achievements.economy
+        permission-message: You don't have <permission>
+    testreward:
+        description: Tries to add 50 monies to your quantity!
+        usage: /<command> [player]
+        permission: achievements.testreward
+        permission-message: You don't have <permission>
+    getStat:
+        description: Tries to get a stat!
+        usage: /<command> [player] <stat> <newAmount>
+        permission: achievements.getstat
+        permission-message: You don't have <permission>
+    setStat:
+        description: Tries to change a stat!
+        usage: /<command> [player] <stat>
+        permission: achievements.setstat
+        permission-message: You don't have <permission>
+    resetWorld:
+        description: Hopefully resets the world, by recopying files from source folder to target folder.
+        usage: /<command> <sourceFile> <targetFile>
+        permission: achievements.resetworld
+        permission-message: You don't have <permission>
